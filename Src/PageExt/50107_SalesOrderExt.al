@@ -9,6 +9,7 @@ pageextension 60117 SalesOrderExt extends "Sales Order"
             field("Reference Name"; Rec."Reference Name")
             {
                 ApplicationArea = All;
+                Caption = 'Reference name';
             }
             field(Created_by; Rec.Created_by)
             {
